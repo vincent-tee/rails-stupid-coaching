@@ -1,0 +1,21 @@
+<h1 class="m-3">Stupid Coaching</h1>
+
+<figure class="m-3 ps-3 border-start border-5">
+  <blockquote class="blockquote">
+    <p><%=@questions%></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite>You</cite>
+  </figcaption>
+</figure>
+
+<figure class="m-3 ps-3 border-start border-5" style="background-color: #ffffe1">
+  <blockquote class="blockquote">
+    <p><%=@answer%></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite>Your Coach</cite>
+  </figcaption>
+</figure>
+
+<p class="m-3"><%= link_to "Ask a new question", ask_path, class: "text-decoration-none" %></p>
